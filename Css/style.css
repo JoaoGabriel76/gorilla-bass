@@ -30,3 +30,47 @@ button {
   padding: 10px;
   margin-bottom: 20px;
 }
+#humano {
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+}
+
+#humano img {
+  width: 150px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 8px 2px rgba(0, 128, 255, 0.6);
+  margin-bottom: 10px;
+}
+
+#humano p {
+  font-size: 18px;
+  margin: 0;
+  color: #cce6ff;
+}
+#gorila {
+  margin: 20px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  width: 220px; /* um pouco maior que o humano, já que a imagem é maior */
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+}
+
+#gorila img {
+  width: 200px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 8px 2px rgba(255, 128, 0, 0.6); /* tom alaranjado para gorila */
+  margin-bottom: 10px;
+}
+
+#gorila p {
+  font-size: 18px;
+  margin: 0;
+  color: #ffc080; /* um tom laranja claro para combinar */
+}

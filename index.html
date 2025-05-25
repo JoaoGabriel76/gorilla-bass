@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gorila x 100 Humanos</title>
-    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/style.css" />
 </head>
 <body>
 
-    <h1>🦍 Gorilla x 100 Humanos</h1>
+    <h1> Gorilla x 100 Humanos</h1>
 
-  <div id="status">
-    <p>Vida do Gorila: <span id="vida-gorila">100</span></p>
-    <p>Humanos restantes: <span id="humanos-restantes">100</span></p>
-    <p>Ataques feitos: <span id="ataques-feitos">0</span></p>
-  </div>
+    <div id="status">
 
-  <div id="gorila">
-    <img src="assets/Gorila.png" alt="Imagem de um Gorila" width="200"> 
-  </div>
+      <p>Humanos restantes: <span id="humanos-restantes">100</span></p>
+      <p>Ataques feitos: <span id="ataques-feitos">0</span></p>
+    </div>
 
-  <div id="acoes">
-    <button onclick="atacar()">Atacar</button>
-    <button onclick="defender()">Defender</button>
-    <button onclick="curar()">Curar</button>
-  </div>
+    <div id="batalha-container">
+      <div id="gorila">
+        <img src="assets/Gorila.png" alt="Imagem de um Gorila" width="200" />
+        <p>Vida do Gorila: <span id="vida-gorila-2">100</span></p>
+      </div>
 
-  <div id="log">
-    <h2>Log da Batalha</h2>
-  </div>
+      <div id="acoes">
+      <button onclick="atacar()">Atacar</button>
+      <button onclick="defender()">Defender</button>
+      <button onclick="curar()">Curar</button>
+    </div>
 
-  <script src="js/script.js"></script>
+
+      <div id="humano">
+        <img src="assets/Humano.png" alt="Imagem de um Humano" width="150" />
+        <p>Vida do Humano: <span id="vida-humano">100</span></p>
+      </div>
+    </div>
+
+    <div id="acoes">
+      <button onclick="atacar()">Atacar</button>
+      <button onclick="defender()">Defender</button>
+      <button onclick="curar()">Curar</button>
+    </div>
+
+    <div id="log">
+      <h2>Log da Batalha</h2>
+    </div>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
