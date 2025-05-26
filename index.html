@@ -11,34 +11,34 @@
     <h1> Gorilla x 100 Humanos</h1>
 
     <div id="status">
-
       <p>Humanos restantes: <span id="humanos-restantes">100</span></p>
       <p>Ataques feitos: <span id="ataques-feitos">0</span></p>
     </div>
 
     <div id="batalha-container">
       <div id="gorila">
+        <div class="barra-vida-container">
+          <div id="barra-vida-gorila" class="barra-vida" style="width: 100%;"></div>
+        </div>
         <img src="assets/Gorila.png" alt="Imagem de um Gorila" width="200" />
-        <p>Vida do Gorila: <span id="vida-gorila-2">100</span></p>
+        <p>Vida do Gorila: <span id="vida-gorila-2">100%</span></p>
       </div>
 
       <div id="acoes">
-      <button onclick="atacar()">Atacar</button>
-      <button onclick="defender()">Defender</button>
-      <button onclick="curar()">Curar</button>
-    </div>
-
+        <button onclick="atacar()">Atacar</button>
+        <button onclick="defender()">Defender</button>
+        <button onclick="curar()">Curar</button>
+      </div>
 
       <div id="humano">
         <img src="assets/Humano.png" alt="Imagem de um Humano" width="150" />
-        <p>Vida do Humano: <span id="vida-humano">100</span></p>
+        <p>Quantidade de Humanos: <span id="vida-humano">100</span></p>
       </div>
     </div>
 
     <div id="acoes">
       <button onclick="atacar()">Atacar</button>
-      <button onclick="defender()">Defender</button>
-      <button onclick="curar()">Curar</button>
+      <button onclick="correr()">Correr</button>
     </div>
 
     <div id="log">

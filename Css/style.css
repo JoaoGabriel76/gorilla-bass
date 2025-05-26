@@ -6,10 +6,6 @@ body {
   color: #fff;
 }
 
-#gorila img {
-  width: 200px;
-}
-
 button {
   margin: 10px;
   padding: 10px 20px;
@@ -30,6 +26,7 @@ button {
   padding: 10px;
   margin-bottom: 20px;
 }
+
 #humano {
   margin: 20px auto;
   background-color: rgba(0, 0, 0, 0.5);
@@ -51,12 +48,14 @@ button {
   font-size: 18px;
   margin: 0;
   color: #cce6ff;
+  font-weight: bold;
 }
+
 #gorila {
   margin: 20px auto;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 15px;
-  width: 220px; /* um pouco maior que o humano, já que a imagem é maior */
+  width: 220px;
   border-radius: 10px;
   box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
 }
@@ -65,12 +64,35 @@ button {
   width: 200px;
   border-radius: 8px;
   border: 2px solid #fff;
-  box-shadow: 0 0 8px 2px rgba(255, 128, 0, 0.6); /* tom alaranjado para gorila */
+  box-shadow: 0 0 8px 2px rgba(255, 128, 0, 0.6);
   margin-bottom: 10px;
 }
 
 #gorila p {
   font-size: 18px;
   margin: 0;
-  color: #ffc080; /* um tom laranja claro para combinar */
+  color: #ffc080;
+  font-weight: bold;
+}
+
+.barra-vida-container {
+  width: 200px;
+  height: 20px;
+  background-color: rgba(80, 80, 80, 0.7); /* mais escuro que #ccc */
+  border-radius: 5px;
+  margin: 8px auto; /* centraliza */
+  overflow: hidden;
+  border: 1px solid #444;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.barra-vida {
+  height: 100%;
+  background-color: #4caf50;
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.barra-humanos {
+  background-color: #2196f3;
 }
